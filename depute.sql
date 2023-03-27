@@ -1,16 +1,20 @@
-﻿drop database is exists assemblee;
-create database assemblee;
-use assemblee;
+﻿
+create database assemble;
+use assemble;
 
 
-CREATE TABLE modem(id_modem int PRIMARY KEY   AUTO-INCREMENT,Nom_modem VARCHAR(50),Prénom_modem VARCHAR(50),Région_modem VARCHAR(50),Dep_modem VARCHAR(50),circo_modem VARCHAR(50),pro_modem VARCHAR(50),groupe_modem VARCHAR(50));
+CREATE TABLE modem
+(id_modem VARCHAR(50),
+Nom_modem VARCHAR(50),
+Prénom_modem VARCHAR(50),
+Région_modem VARCHAR(50),Dep_modem VARCHAR(50),circo_modem VARCHAR(50),pro_modem VARCHAR(50),groupe_modem VARCHAR(50));
 INSERT INTO modem(id_modem,Nom_modem,Prénom_modem,Région_modem,Dep_modem,circo_modem,Pro_modem,groupe_modem)
 values
  (1,"Lasserre","Florence","Nouvelle-Aquitaine","Pyrénées-Atlantiques","5","Employée-du-secteur-privé","Démocrate (MoDem et Indépendants)"),
 (2,"Falorni","Olivier","Nouvelle-Aquitaine","Charente-Maritime","1","Professeur-du-secondaire","Démocrate (MoDem et Indépendants)"),
 (3,"Mandon","Emmanuel","Auvergne-Rhône-Alpes","Loire","3","Conseiller-dinsertion-professionnelle","Démocrate (MoDem et Indépendants)"),
 (4,"Lingemann","Delphine","Auvergne-Rhône-Alpes","Puy-de-Dôme","4","Chef-dentreprise","Démocrate (MoDem et Indépendants)"),
-(5,"Desjonquères","Mathilde","Centre-Val de Loire","Loir-et-Cher","1","Directrice-Culture-Patrimoine-et-Sport","Démocrate (MoDem et Indépendants)");
+(5,"Desjonquères","Mathilde","Centre-Val de Loire","Loir-et-Cher","1","Directrice-Culture-Patrimoine-et-Sport","Démocrate (MoDem et Indépendants)"),
 (6,"Daubié","Romain","Auvergne-Rhône-Alpes","Ain","2","Avocat","Démocrate (MoDem et Indépendants)"),
 (7,"Balanant","Erwan","Bretagne","Finistère","8","Photographe et réalisateur","Démocrate (MoDem et Indépendants)"),
 (8,"Cubertafon","Jean-Pierre","Nouvelle-Aquitaine","Dordogne","3","Retraité des professions libérales","Démocrate (MoDem et Indépendants)"),
