@@ -7,8 +7,13 @@ CREATE TABLE modem
 (id_modem VARCHAR(50),
 Nom_modem VARCHAR(50),
 Prénom_modem VARCHAR(50),
-Région_modem VARCHAR(50),Dep_modem VARCHAR(50),circo_modem VARCHAR(50),pro_modem VARCHAR(50),groupe_modem VARCHAR(50));
-INSERT INTO modem(id_modem,Nom_modem,Prénom_modem,Région_modem,Dep_modem,circo_modem,Pro_modem,groupe_modem)
+Région_modem VARCHAR(50),
+Dep_modem VARCHAR(50),
+circo_modem VARCHAR(50),
+pro_modem VARCHAR(50),
+groupe_modem VARCHAR(50)
+ );
+INSERT INTO modem(id_modem,Nom_modem,Prénom_modem,Région_modem,Dep_modem,circo_modem,pro_modem,groupe_modem)
 values
  (1,"Lasserre","Florence","Nouvelle-Aquitaine","Pyrénées-Atlantiques","5","Employée-du-secteur-privé","Démocrate (MoDem et Indépendants)"),
 (2,"Falorni","Olivier","Nouvelle-Aquitaine","Charente-Maritime","1","Professeur-du-secondaire","Démocrate (MoDem et Indépendants)"),
