@@ -3,8 +3,8 @@ create database assemblee;
 use assemblee;
 
 
-CREATE TABLE modem(id_modem int PRIMARY KEY   AUTO-INCREMENT,Nom_modem VARCHAR(50),Prénom_modem VARCHAR(50),Région_modem VARCHAR(50),Dep_modem VARCHAR(50),circo-modem VARCHAR(50),pro_modem VARCHAR(50),groupe-modem VARCHAR(50));
-INSERT INTO modem(id_modem,Nom_modem,Prénom_modem,Région_modem,dep-Dep_modem,circo_modem,Pro_modem,groupe-modem)
+CREATE TABLE modem(id_modem int PRIMARY KEY   AUTO-INCREMENT,Nom_modem VARCHAR(50),Prénom_modem VARCHAR(50),Région_modem VARCHAR(50),Dep_modem VARCHAR(50),circo_modem VARCHAR(50),pro_modem VARCHAR(50),groupe_modem VARCHAR(50));
+INSERT INTO modem(id_modem,Nom_modem,Prénom_modem,Région_modem,dep-Dep_modem,circo_modem,Pro_modem,groupe_modem)
 values
  (1,"Lasserre","Florence","Nouvelle-Aquitaine","Pyrénées-Atlantiques","5","Employée-du-secteur-privé","Démocrate (MoDem et Indépendants)"),
 (2,"Falorni","Olivier","Nouvelle-Aquitaine","Charente-Maritime","1","Professeur-du-secondaire","Démocrate (MoDem et Indépendants)"),
@@ -142,9 +142,9 @@ INSERT INTO MoDemhorizons (id_horizons,Nom_horizons,Prénom_horizons,Région_hor
  (26,"Larsonneur","Jean-Charles","Bretagne","Finistère","2","Diplomate","Horizons et apparentés"),
  (27,"Rauch","Isabelle","Grand Est","Moselle","9","Consultante","Horizons et apparentés"),
  (28,"Jolivet","François","Centre-Val de Loire","Indre","1","Cadre supérieur (secteur privé)","Horizons et apparentés"),
- (29,"Gernigon","François","Pays de la Loire","Maine-et-Loire","1","Ancien cadre","Horizons et apparentés"),
+ (29,"Gernigon","François","Pays de la Loire","Maine-et-Loire","1","Ancien cadre","Horizons et apparentés");
   
-  CREATE TABLE lfi(id_lfi int,Nom _lfi VARCHAR(50),Prénom_lfi VARCHAR(50),Région_lfi VARCHAR(50),Département VARCHAR(50),circonscription_lfi VARCHAR(50),Profession_lfi VARCHAR(10),Groupe_fli VARCHAR(50)),
+  CREATE TABLE lfi(id_lfi int,Nom _lfi VARCHAR(50),Prénom_lfi VARCHAR(50),Région_lfi VARCHAR(50),Département VARCHAR(50),circonscription_lfi VARCHAR(50),Profession_lfi VARCHAR(10),Groupe_fli VARCHAR(50));
 INSERT INTO lfi (id-lfi,Nom_lfi,Prénom_lfi,Région_lfi,Département_lfi,circonscription_lfi,Profession_lfi,Groupe_lfi)
  values    
   (1,"Martinet","William","Ile-de-France","Yvelines","11","Cadre administratif","La France insoumise - Nouvelle Union Populaire écologique et sociale"),
@@ -220,9 +220,9 @@ INSERT INTO lfi (id-lfi,Nom_lfi,Prénom_lfi,Région_lfi,Département_lfi,circons
  (71,"Leboucher","Élise","Pays de la Loire","Sarthe","4","Educatrice spécialisée","La France insoumise - Nouvelle Union Populaire écologique et sociale"),
  (72,"Simonnet","Danielle","Ile-de-France","Paris","15","Professeur, profession scientifique","La France insoumise - Nouvelle Union Populaire écologique et sociale"),
  (73,"Caron","Aymeric","Ile-de-France","Paris","18","Profession de linformation, des arts et des spectacles","La France insoumise - Nouvelle Union Populaire écologique et sociale"),
- (74,"Clouet","Hadrien","Occitanie","Haute-Garonne","1","Professeur, profession scientifique","La France insoumise - Nouvelle Union Populaire écologique et sociale"),
+ (74,"Clouet","Hadrien","Occitanie","Haute-Garonne","1","Professeur, profession scientifique","La France insoumise - Nouvelle Union Populaire écologique et sociale");
  
-CREATE TABLE lr(id_lr int,Nom_lr VARCHAR(50),Prénom_lr VARCHAR(50),Région VARCHAR(50),Département_lr VARCHAR(50),circonscription_lr VARCHAR(50),Profession_lr VARCHAR(50),Groupe_lr VARCHAR(50)),
+CREATE TABLE lr(id_lr int,Nom_lr VARCHAR(50),Prénom_lr VARCHAR(50),Région VARCHAR(50),Département_lr VARCHAR(50),circonscription_lr VARCHAR(50),Profession_lr VARCHAR(50),Groupe_lr VARCHAR(50));
 INSERT INTO lr (id_lr,Nom_lr,Prénom_lr,Région_lr,Département_lr,circonscription_lr,Profession_lr,Groupe_lr)
   values
   (1,"Bazin-Malgras","Valérie","Grand Est","Aube","2","Commerçante","Les Républicains"),
@@ -285,8 +285,8 @@ INSERT INTO lr (id_lr,Nom_lr,Prénom_lr,Région_lr,Département_lr,circonscripti
  (58,"Pradié","Aurélien","Occitanie","Lot","1","Cadre supérieur (secteur privé)","Les Républicains"),
  (59,"Serre","Nathalie","Auvergne-Rhône-Alpes","Rhône","8","Mère au foyer","Les Républicains"),
  (60,"Dalloz","Marie-Christine","Bourgogne-Franche-Comté","Jura","2","employé","Les Républicains"),
- (61,"Genevard","Annie","Bourgogne-Franche-Comté","Doubs","5","Professeur du secondaire","Les Républicains"),
- CREATE TABLE liot(id_liot int,Nom_liot VARCHAR(50),Prénom_liot VARCHAR(50),Région_liot VARCHAR(50),Département_liot VARCHAR(50),circonscription_liot VARCHAR(50),Profession-liot VARCHAR(50),Groupe_liot VARCHAR(50)),
+ (61,"Genevard","Annie","Bourgogne-Franche-Comté","Doubs","5","Professeur du secondaire","Les Républicains");
+ CREATE TABLE liot(id_liot int,Nom_liot VARCHAR(50),Prénom_liot VARCHAR(50),Région_liot VARCHAR(50),Département_liot VARCHAR(50),circonscription_liot VARCHAR(50),Profession-liot VARCHAR(50),Groupe_liot VARCHAR(50));
 INSERT INTO liot (id_liot,Nom_liot,Prénom-liot,Région_liot,Département_liot,circonscription_liot,Profession_liot,Groupe_liot)
 
  values
@@ -310,17 +310,17 @@ INSERT INTO liot (id_liot,Nom_liot,Prénom-liot,Région_liot,Département_liot,c
  (17,"Panifous","Laurent","Occitanie","Ariège","2","Directeur détablissements sanitaires et sociaux","Libertés, Indépendants, Outre-mer et Territoires"),
  (18,"Youssouffa","Estelle","Mayotte","Mayotte","1","Consultante","Libertés, Indépendants, Outre-mer et Territoires"),
  (19,"Taupiac","David","Occitanie","Gers","2","Consultant aéronautique","Libertés, Indépendants, Outre-mer et Territoires"),
- (20,"Bassire","Nathalie","Réunion","Réunion","3","Retraitée de lenseignement","Libertés, Indépendants, Outre-mer et Territoires"),
- CREATE TABLE ni(id_ni int,Nom_ni VARCHAR(50),Prénom_ni VARCHAR(50),Région_ni VARCHAR(50),Département_ni VARCHAR(50),circonscription_ni VARCHAR(50),Profession-ni VARCHAR(50),Groupe_ni VARCHAR(50)),
+ (20,"Bassire","Nathalie","Réunion","Réunion","3","Retraitée de lenseignement","Libertés, Indépendants, Outre-mer et Territoires");
+ CREATE TABLE ni(id_ni int,Nom_ni VARCHAR(50),Prénom_ni VARCHAR(50),Région_ni VARCHAR(50),Département_ni VARCHAR(50),circonscription_ni VARCHAR(50),Profession-ni VARCHAR(50),Groupe_ni VARCHAR(50));
 INSERT INTO ni (id-ni,Nom_ni,Prénom_ni,Région_ni,Département_ni,circonscription_ni,Profession_ni,Groupe_ni)
  values
  (1,"Ménard","Emmanuelle","Occitanie","Hérault","6","Journaliste et autre média","Non inscrit"),
  (2,"Besse","Véronique","Pays de la Loire","Vendée","4","Journaliste","Non inscrit"),
  (3,"Quatennens","Adrien","Hauts-de-France","Nord","1","Employé (secteur privé)","Non inscrit"),
  (4,"Dupont-Aignan","Nicolas","Ile-de-France","Essonne","8","Administrateur de lEtat","Non inscrit"),
- (5,"Habib","David","Nouvelle-Aquitaine","Pyrénées-Atlantiques","3","Cadre","Non inscrit"),
+ (5,"Habib","David","Nouvelle-Aquitaine","Pyrénées-Atlantiques","3","Cadre","Non inscrit");
 
-CREATE TABLE rn(id_rn int,Nom_rn VARCHAR(50),Prénom_rn VARCHAR(50),Région_rn VARCHAR(50),Département_rn VARCHAR(50),circonscription_rn VARCHAR(50),Profession_rn VARCHAR(50),Groupe_rn VARCHAR(50)),
+CREATE TABLE rn(id_rn int,Nom_rn VARCHAR(50),Prénom_rn VARCHAR(50),Région_rn VARCHAR(50),Département_rn VARCHAR(50),circonscription_rn VARCHAR(50),Profession_rn VARCHAR(50),Groupe_rn VARCHAR(50));
 INSERT INTO rn(id_rn,Nom_rn,Prénom_rn,Région_rn,Département_rn,circonscription_rn,Profession_rn,Groupe_rn)
  values
  (1,"Levavasseur","Katiana","Normandie","Eure","2","Ouvrier de type industriel","Rassemblement National"),
@@ -410,9 +410,9 @@ INSERT INTO rn(id_rn,Nom_rn,Prénom_rn,Région_rn,Département_rn,circonscriptio
  (86,"Tivoli","Lionel","Provence-Alpes-Côte dAzur","Alpes-Maritimes","2","Chef dentreprise de 10 salariés ou plus","Rassemblement National"),
  (87,"Girard","Christian","Provence-Alpes-Côte dAzur","Alpes-de-Haute-Provence","1","Ancien cadre","Rassemblement National"),
  (88,"Baubry","Romain","Provence-Alpes-Côte dAzur","Bouches-du-Rhône","15","Policier et militaire","Rassemblement National"),
- (89,"Beaurain","José","Hauts-de-France","Aisne","4","Artisan","Rassemblement National"),
+ (89,"Beaurain","José","Hauts-de-France","Aisne","4","Artisan","Rassemblement National");
  
-CREATE TABLE ren(id_ren int,Nom_ren VARCHAR(50),Prénom_ren VARCHAR(0),Région_ren VARCHAR(50),Département-ren VARCHAR(50),circonscription-ren VARCHAR(50),Profession_ren VARCHAR(50),Groupe_ren VARCHAR(50)),
+CREATE TABLE ren(id_ren int,Nom_ren VARCHAR(50),Prénom_ren VARCHAR(0),Région_ren VARCHAR(50),Département-ren VARCHAR(50),circonscription-ren VARCHAR(50),Profession_ren VARCHAR(50),Groupe_ren VARCHAR(50));
 INSERT INTO ren (id_ren,Nom_ren,Prénom_ren,Région_ren,Département_ren,circonscription_ren,Profession_ren,Groupe_ren)
   values
   (1,"Panosyan-Bouvet","Astrid","Ile-de-France","Paris","4","Cadre administratif et commercial dentreprise","Renaissance"),
@@ -584,8 +584,8 @@ INSERT INTO ren (id_ren,Nom_ren,Prénom_ren,Région_ren,Département_ren,circons
 (170,"Gassilloud","Thomas","Auvergne-Rhône-Alpes","Rhône","10","Industriel-Chef dentreprise","Renaissance"),
  (171,"Tanzilli","Sarah","Auvergne-Rhône-Alpes","Rhône","13","Cadre administratif","Renaissance"),
  (172,"Seo","Mikaele","Wallis-et-Futuna","Wallis-et-Futuna","1","Profession intermédiaire administrative de la fonction publique","Renaissance"),
- (173,"Sitzenstuhl","Charles","Grand Est","Bas-Rhin","5","Cadre de la fonction publique","Renaissance"),
- CREATE TABLE sonupes(id_sonupes int,Nom_sonupes VARCHAR(50),Prénom_sonupes VARCHAR(50),Région_sonupes VARCHAR(50),Département_sonupes VARCHAR(50),circonscription_sonupes VARCHAR(50),Profession_sonupes VARCHAR(50),Groupe_sonupes VARCHAR(50)),
+ (173,"Sitzenstuhl","Charles","Grand Est","Bas-Rhin","5","Cadre de la fonction publique","Renaissance");
+ CREATE TABLE sonupes(id_sonupes int,Nom_sonupes VARCHAR(50),Prénom_sonupes VARCHAR(50),Région_sonupes VARCHAR(50),Département_sonupes VARCHAR(50),circonscription_sonupes VARCHAR(50),Profession_sonupes VARCHAR(50),Groupe_sonupes VARCHAR(50));
 INSERT INTO sonupes (id_sonupes,Nom_sonupes,Prénom_sonupes,Région_sonupes,Département_sonupes,circonscription_sonupes,Profession_sonupes,Groupe_sonupes)
  values
  (1,"Hajjar","Johnny","Martinique","Martinique","3","Professeur du second degré","Socialistes et apparentés (membre de l’intergroupe NUPES)"),
@@ -618,4 +618,4 @@ INSERT INTO sonupes (id_sonupes,Nom_sonupes,Prénom_sonupes,Région_sonupes,Dép
 (28,"Aviragnet","Joël","Occitanie","Haute-Garonne","8","Directeur dun établissement pour lenfance handicapée","Socialistes et apparentés (membre de l’intergroupe NUPES)"),
 (29,"Naillet","Philippe","Réunion","Réunion","1","Inspecteur assurance-vie","Socialistes et apparentés (membre de l’intergroupe NUPES)"),
 (30,"Pic","Anna","Normandie","Manche","4","Professeur, profession scientifique","Socialistes et apparentés (membre de l’intergroupe NUPES)"),
-(31,"Santiago","Isabelle","Ile-de-France","Val-de-Marne","9","Cadre territorial","Socialistes et apparentés (membre de l’intergroupe NUPES)"),
+(31,"Santiago","Isabelle","Ile-de-France","Val-de-Marne","9","Cadre territorial","Socialistes et apparentés (membre de l’intergroupe NUPES)");
